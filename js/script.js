@@ -1,5 +1,18 @@
 const products = [
     {
+        id: 10,
+        name: "FRONY QH191 Wireless Bluetooth Gaming Headset",
+        brand: "FRONY",
+        category: "electronics",
+        hot: true,
+        price: 999,
+        oldPrice: 1999,
+        rating: 4.2,
+        description: "Wireless gaming sports headphones with stereo sound, SD card support, and 5-6 hour battery backup. True wireless multicolor bluetooth headset.",
+        image: "images/frony-qh191-headset.jpg",
+        affiliateLink: "https://fktr.in/nY8IAei"
+    },
+    {
         id: 1,
         name: "True Wireless Earbuds Pro",
         brand: "SoundMax",
@@ -144,20 +157,15 @@ function cardHTML(p, index) {
         <article class="blog-card${index === 0 ? ' featured' : ''}">
             <div class="card-img-wrap">
                 <img src="${p.image}" alt="${p.name}" loading="lazy" onerror="this.src='${PLACEHOLDER}'">
-                <span class="discount-badge">${discount(p)}% OFF</span>
                 <span class="category-tag">${capitalize(p.category)}</span>
             </div>
             <div class="card-content">
-                <span class="card-meta">${p.brand} / ${formatPrice(p.oldPrice)}</span>
+                <span class="card-meta">${p.brand}</span>
                 <h2 class="card-title">${p.name}</h2>
                 <p class="card-desc">${p.description}</p>
                 <div class="rating">
                     <span class="stars">${stars(p.rating)}</span>
                     <span>${p.rating} / 5</span>
-                </div>
-                <div class="price-row">
-                    <span class="price">${formatPrice(p.price)}</span>
-                    <span class="old-price">${formatPrice(p.oldPrice)}</span>
                 </div>
                 <a class="card-link" href="${p.affiliateLink}" target="_blank" rel="noopener sponsored">
                     <i class="fas fa-shopping-bag"></i> View Price &rarr;
