@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dealora – Best Deals, Smart Savings</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,500;1,600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="light-theme">
+
+  <header id="mainHeader">
+    <div class="nav-wrap" id="navWrap">
+      <div class="logo" onclick="window.scrollTo({top:0,behavior:'smooth'})">Dealora</div>
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li class="dropdown-parent">
+            <a href="#" class="dropdown-toggle" onclick="event.preventDefault()">Categories <i class="fas fa-chevron-down"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="#" data-cat="all" class="all-cat">All Categories</a></li>
+              <li><a href="#" data-cat="electronics">Electronics</a></li>
+              <li><a href="#" data-cat="fashion">Fashion</a></li>
+              <li><a href="#" data-cat="accessories">Accessories</a></li>
+              <li><a href="#" data-cat="home">Home &amp; Living</a></li>
+            </ul>
+          </li>
+          <li class="dropdown-parent">
+            <a href="#" class="dropdown-toggle" onclick="event.preventDefault()">Hot Deals <i class="fas fa-chevron-down"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="#" data-cat="hot" class="all-cat">Best Sellers</a></li>
+              <li><a href="#" data-cat="all">Today's Picks</a></li>
+              <li><a href="#" data-cat="electronics">Electronics</a></li>
+              <li><a href="#" data-cat="fashion">Fashion</a></li>
+              <li><a href="#" data-cat="home">Home &amp; Living</a></li>
+            </ul>
+          </li>
+          <li><a href="#" data-cat="all">All Deals</a></li>
+          <li><a href="#" data-cat="hot">Best Sellers</a></li>
+          <li><button class="theme-toggle" id="themeToggle"><i class="fas fa-adjust"></i></button></li>
+          <li><a href="#newsletter" class="join-hub-btn">Deal Alerts</a></li>
+        </ul>
+        <button class="hamburger-icon" onclick="toggleMenu()"><i class="fas fa-bars"></i></button>
+      </nav>
+    </div>
+  </header>
+
+  <div id="closeBtn" onclick="toggleMenu()">&times;</div>
+
+  <main>
+    <section class="hero container">
+      <span class="hero-tag reveal">Deals &middot; Savings &middot; Best Picks</span>
+      <h1 class="reveal">Deals that <span>deliver.</span><br>Savings that delight.</h1>
+    </section>
+    <section class="container">
+      <div class="filter-bar reveal">
+        <button class="filter-item active" data-cat="all">Latest Deals</button>
+        <button class="filter-item" data-cat="electronics">Electronics</button>
+        <button class="filter-item" data-cat="fashion">Fashion</button>
+        <button class="filter-item" data-cat="accessories">Accessories</button>
+        <button class="filter-item" data-cat="home">Home &amp; Living</button>
+      </div>
+      <div class="blog-masonry" id="productGrid"></div>
+    </section>
+  </main>
+
+  <footer class="container">
+    <div class="footer-grid">
+      <div class="footer-col footer-about">
+        <div class="footer-logo">Dealora</div>
+        <p>Your daily source for hand-picked deals. We hunt down the best prices on top products so you can save more, every single day.</p>
+        <div class="social-icons">
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="footer-col"><h4>Shop</h4><ul class="footer-links"><li><a href="#" data-cat="all">All Deals</a></li><li><a href="#" data-cat="hot">Best Sellers</a></li><li><a href="#" data-cat="electronics">Electronics</a></li><li><a href="#" data-cat="fashion">Fashion</a></li></ul></div>
+      <div class="footer-col"><h4>Categories</h4><ul class="footer-links"><li><a href="#" data-cat="electronics">Electronics</a></li><li><a href="#" data-cat="fashion">Fashion</a></li><li><a href="#" data-cat="accessories">Accessories</a></li><li><a href="#" data-cat="home">Home &amp; Living</a></li></ul></div>
+      <div class="footer-col" id="newsletter"><h4>Deal Alerts</h4><p style="color:var(--sub-text);font-size:clamp(0.78rem,1vw,0.9rem);margin-bottom:15px;">Best deals, delivered to your inbox.</p><form class="newsletter-form" onsubmit="event.preventDefault();alert('Thank you for subscribing!');"><input type="email" placeholder="Your email address" required><button type="submit">Subscribe</button></form></div>
+    </div>
+    <div class="footer-bottom"><span>&copy; 2026 Dealora. All rights reserved.</span><div><a href="#">Privacy Policy</a> &nbsp;&middot;&nbsp; <a href="#">Terms of Service</a> &nbsp;&middot;&nbsp; <a href="#">Cookies</a></div></div>
+  </footer>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
