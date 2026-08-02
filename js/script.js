@@ -197,7 +197,14 @@ function setCat(cat) {
     render();
     setTimeout(() => {
         const bar = document.querySelector('.filter-bar');
-        if (bar) window.scrollTo({ top: Math.max(0, bar.offsetTop - 80), behavior: 'smooth' });
+        if (bar) {
+            const top = Math.max(0, bar.offsetTop - 80);
+            if ('scrollBehavior' in document.documentElement.style) {
+                window.scrollTo({ top, behavior: 'smooth' });
+            } else {
+                window.scrollTo(0, top);
+            }
+        }
     }, 80);
 }
 
