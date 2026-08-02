@@ -195,7 +195,10 @@ function setCat(cat) {
         btn.classList.toggle('active', btn.dataset.cat === cat);
     });
     render();
-    window.scrollTo({ top: document.querySelector('.filter-bar').offsetTop - 90, behavior: 'smooth' });
+    setTimeout(() => {
+        const bar = document.querySelector('.filter-bar');
+        if (bar) window.scrollTo({ top: Math.max(0, bar.offsetTop - 80), behavior: 'smooth' });
+    }, 80);
 }
 
 document.querySelectorAll('[data-cat]').forEach(el => {
@@ -207,16 +210,35 @@ document.querySelectorAll('[data-cat]').forEach(el => {
 });
 
 function toggleMenu() {
-    document.getElementById('navLinks').classList.toggle('open');
-    document.getElementById('closeBtn').classList.toggle('show');
-    document.body.classList.toggle('menu-open');
+    const open = document.getElementById('navLinks').classList.toggle('open');
+    document.getElementById('closeBtn').classList.toggle('show', open);
+    document.getElementById('menuBackdrop').classList.toggle('show', open);
+    document.body.classList.toggle('menu-open', open);
 }
 
 function closeMenu() {
     document.getElementById('navLinks').classList.remove('open');
     document.getElementById('closeBtn').classList.remove('show');
+    document.getElementById('menuBackdrop').classList.remove('show');
     document.body.classList.remove('menu-open');
+    document.querySelectorAll('.dropdown-parent.open').forEach(li => li.classList.remove('open'));
 }
+
+document.querySelectorAll('.dropdown-toggle').forEach(toggle => {
+    toggle.addEventListener('click', e => {
+        e.preventDefault();
+        const parent = toggle.closest('.dropdown-parent');
+        const wasOpen = parent.classList.contains('open');
+        document.querySelectorAll('.dropdown-parent.open').forEach(li => li.classList.remove('open'));
+        if (!wasOpen) parent.classList.add('open');
+    });
+});
+
+document.querySelectorAll('#navLinks a[href^="#"]').forEach(a => {
+    if (!a.classList.contains('dropdown-toggle')) {
+        a.addEventListener('click', () => closeMenu());
+    }
+});
 
 const themeToggle = document.getElementById('themeToggle');
 themeToggle.addEventListener('click', () => {
