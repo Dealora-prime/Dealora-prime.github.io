@@ -39,6 +39,45 @@ const products = [
         affiliateLink: "https://fktr.in/oWtv5fw"
     },
     {
+        id: 13,
+        name: "TABARET NEW Wireless Bluetooth On Ear Headphones",
+        brand: "TABARET",
+        category: "headphones",
+        hot: false,
+        price: 899,
+        oldPrice: 1799,
+        rating: 4.0,
+        description: "Wireless bluetooth on-ear headphones with volume control and HD sound. Comfortable red on-the-ear design for everyday listening.",
+        image: "images/tabaret-headset.jpg",
+        affiliateLink: "https://fktr.in/FXoWkMc"
+    },
+    {
+        id: 14,
+        name: "TRIGGR Punkheadz Z3 Bluetooth Gaming Headset",
+        brand: "TRIGGR",
+        category: "headphones",
+        hot: false,
+        price: 1699,
+        oldPrice: 3299,
+        rating: 4.3,
+        description: "Punkheadz Z3 with latest BT v6.0, 50 hour battery, dual pairing, 40mm drivers and ENC noise cancellation. On-the-ear bluetooth headset in aqua blue.",
+        image: "images/triggr-z3-headset.jpg",
+        affiliateLink: "https://fktr.in/Y35e3nm"
+    },
+    {
+        id: 15,
+        name: "PunnkFunnk Astro Junior Kids Bluetooth Headset",
+        brand: "PunnkFunnk",
+        category: "headphones",
+        hot: false,
+        price: 1299,
+        oldPrice: 2499,
+        rating: 4.4,
+        description: "Astro Junior kids' headphones designed with a focus on safety and durability. True wireless bluetooth headset in green.",
+        image: "images/punkfunk-kids-headset.jpg",
+        affiliateLink: "https://fktr.in/vJHg053"
+    },
+    {
         id: 1,
         name: "True Wireless Earbuds Pro",
         brand: "SoundMax",
