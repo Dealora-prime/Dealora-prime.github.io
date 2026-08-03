@@ -88,6 +88,27 @@
     <div class="footer-bottom"><span>&copy; 2026 Dealora. All rights reserved.</span><div><a href="#">Privacy Policy</a> &nbsp;&middot;&nbsp; <a href="#">Terms of Service</a> &nbsp;&middot;&nbsp; <a href="#">Cookies</a></div></div>
   </footer>
 
+  <div id="productModal" class="modal" aria-hidden="true">
+    <div class="modal-overlay" onclick="closeModal()"></div>
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" onclick="closeModal()" aria-label="Close">&times;</button>
+      <div class="modal-slider" id="modalSlider">
+        <div class="modal-slides" id="modalSlides"></div>
+        <button class="slide-nav prev" id="slidePrev" onclick="goSlide(currentSlide - 1)" aria-label="Previous">&lsaquo;</button>
+        <button class="slide-nav next" id="slideNext" onclick="goSlide(currentSlide + 1)" aria-label="Next">&rsaquo;</button>
+        <div class="slide-dots" id="slideDots"></div>
+      </div>
+      <div class="modal-body">
+        <span class="modal-meta" id="modalMeta"></span>
+        <h2 class="modal-title" id="modalTitle"></h2>
+        <div class="modal-rating" id="modalRating"></div>
+        <p class="modal-desc" id="modalDesc"></p>
+        <ul class="modal-features" id="modalFeatures"></ul>
+        <a class="card-link modal-btn" id="modalBtn" target="_blank" rel="noopener sponsored"><i class="fas fa-shopping-bag"></i> View Price &rarr;</a>
+      </div>
+    </div>
+  </div>
+
   <script src="js/script.js" defer></script>
 </body>
 </html>

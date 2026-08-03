@@ -10,6 +10,14 @@ const products = [
         rating: 4.2,
         description: "Wireless gaming sports headphones with stereo sound, SD card support, and 5-6 hour battery backup. True wireless multicolor bluetooth headset.",
         image: "images/frony-qh191-headset.jpg",
+        features: [
+            "Wireless gaming bluetooth headset with stereo sound",
+            "SD card slot for music playback without your phone",
+            "5-6 hour battery backup for long listening sessions",
+            "Multicolor sporty design",
+            "Built-in mic for gaming and hands-free calls"
+        ],
+        gallery: ["images/frony-qh191-headset.jpg", "images/frony-qh191-2.jpg"],
         affiliateLink: "https://fktr.in/nY8IAei"
     },
     {
@@ -23,6 +31,14 @@ const products = [
         rating: 4.1,
         description: "Noise cancelling wireless headset with built-in mic for crystal clear calls. On-the-ear bluetooth headset in silver and white.",
         image: "images/shreevistaar-headset.jpg",
+        features: [
+            "Active noise cancellation for immersive sound",
+            "Built-in mic for crystal clear hands-free calls",
+            "Comfortable on-ear cushions for long wear",
+            "Wireless bluetooth connectivity",
+            "Elegant silver and white finish"
+        ],
+        gallery: ["images/shreevistaar-headset.jpg"],
         affiliateLink: "https://fktr.in/eTXox5q"
     },
     {
@@ -36,6 +52,15 @@ const products = [
         rating: 4.3,
         description: "Punkheadz Z4 with 50 hour battery, dual pairing, 40mm drivers, gaming mode and BT v6.0. On-the-ear bluetooth headset in alpine green.",
         image: "images/triggr-z4-headset.jpg",
+        features: [
+            "50-hour battery life for days of playback",
+            "Dual pairing - connect two devices at once",
+            "40mm drivers for deep, rich bass",
+            "Gaming mode with low latency",
+            "Bluetooth v6.0 connectivity",
+            "Alpine green on-ear design"
+        ],
+        gallery: ["images/triggr-z4-headset.jpg", "images/triggr-z4-2.jpg", "images/triggr-z4-3.jpg", "images/triggr-z4-4.jpg"],
         affiliateLink: "https://fktr.in/oWtv5fw"
     },
     {
@@ -49,6 +74,14 @@ const products = [
         rating: 4.0,
         description: "Wireless bluetooth on-ear headphones with volume control and HD sound. Comfortable red on-the-ear design for everyday listening.",
         image: "images/tabaret-headset.jpg",
+        features: [
+            "Volume control right on the headset",
+            "HD sound output for clear audio",
+            "Wireless bluetooth pairing",
+            "Built-in mic for calls",
+            "Sleek red on-ear design"
+        ],
+        gallery: ["images/tabaret-headset.jpg", "images/tabaret-headset-2.jpg"],
         affiliateLink: "https://fktr.in/FXoWkMc"
     },
     {
@@ -62,6 +95,15 @@ const products = [
         rating: 4.3,
         description: "Punkheadz Z3 with latest BT v6.0, 50 hour battery, dual pairing, 40mm drivers and ENC noise cancellation. On-the-ear bluetooth headset in aqua blue.",
         image: "images/triggr-z3-headset.jpg",
+        features: [
+            "Latest Bluetooth v6.0 connectivity",
+            "50-hour battery life",
+            "Dual pairing - switch between two devices",
+            "40mm drivers for powerful sound",
+            "ENC environmental noise cancellation",
+            "Aqua blue on-ear design"
+        ],
+        gallery: ["images/triggr-z3-headset.jpg", "images/triggr-z3-2.jpg", "images/triggr-z3-3.jpg", "images/triggr-z3-4.jpg"],
         affiliateLink: "https://fktr.in/Y35e3nm"
     },
     {
@@ -75,6 +117,14 @@ const products = [
         rating: 4.4,
         description: "Astro Junior kids' headphones designed with a focus on safety and durability. True wireless bluetooth headset in green.",
         image: "images/punkfunk-kids-headset.jpg",
+        features: [
+            "Kids headphones designed with safety first",
+            "Durable build for rough and tumble use",
+            "True wireless bluetooth connectivity",
+            "Volume-limited for child-safe listening",
+            "Fun green color kids will love"
+        ],
+        gallery: ["images/punkfunk-kids-headset.jpg", "images/punkfunk-kids-2.jpg", "images/punkfunk-kids-3.jpg", "images/punkfunk-kids-4.jpg", "images/punkfunk-kids-5.jpg"],
         affiliateLink: "https://fktr.in/vJHg053"
     },
     {
@@ -88,6 +138,12 @@ const products = [
         rating: 4.5,
         description: "Crystal clear sound with active noise cancellation and 30hr battery life.",
         image: "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=800&q=80",
+        features: [
+            "Active noise cancellation",
+            "Crystal clear stereo sound",
+            "30-hour total battery life",
+            "Comfortable secure in-ear fit"
+        ],
         affiliateLink: "https://www.amazon.in/s?k=wireless+earbuds&tag=dealora-21"
     },
     {
@@ -101,6 +157,12 @@ const products = [
         rating: 4.3,
         description: "Heart-rate tracking, GPS, and a bright AMOLED display. Water resistant.",
         image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80",
+        features: [
+            "Heart-rate tracking",
+            "Built-in GPS",
+            "Bright AMOLED display",
+            "Water resistant"
+        ],
         affiliateLink: "https://www.amazon.in/s?k=smart+watch&tag=dealora-21"
     },
     {
@@ -114,6 +176,12 @@ const products = [
         rating: 4.6,
         description: "Deep bass, 360-degree sound, and 12-hour playtime for every party.",
         image: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=800&q=80",
+        features: [
+            "Deep bass 360-degree sound",
+            "12-hour playtime",
+            "Wireless bluetooth",
+            "Portable design"
+        ],
         affiliateLink: "https://www.amazon.in/s?k=bluetooth+speaker&tag=dealora-21"
     },
     {
@@ -127,6 +195,12 @@ const products = [
         rating: 4.4,
         description: "Ultra-light breathable mesh with cushioned sole for all-day comfort.",
         image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80",
+        features: [
+            "Ultra-light breathable mesh",
+            "Cushioned sole",
+            "All-day comfort fit",
+            "Durable grip outsole"
+        ],
         affiliateLink: "https://www.amazon.in/s?k=running+shoes&tag=dealora-21"
     },
     {
@@ -140,6 +214,12 @@ const products = [
         rating: 4.2,
         description: "Premium cotton slim-fit shirt, wrinkle-free and easy to style.",
         image: "https://images.unsplash.com/photo-1620012253295-c15cc3e65df4?auto=format&fit=crop&w=800&q=80",
+        features: [
+            "Premium cotton fabric",
+            "Slim-fit cut",
+            "Wrinkle-free finish",
+            "Easy to style"
+        ],
         affiliateLink: "https://www.amazon.in/s?k=mens+slim+fit+shirt&tag=dealora-21"
     },
     {
@@ -153,6 +233,12 @@ const products = [
         rating: 4.5,
         description: "Laptop-friendly, water-resistant with hidden pockets and USB port.",
         image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
+        features: [
+            "Laptop-friendly compartment",
+            "Water resistant",
+            "Hidden anti-theft pockets",
+            "Built-in USB port"
+        ],
         affiliateLink: "https://www.amazon.in/s?k=anti+theft+backpack&tag=dealora-21"
     },
     {
@@ -166,6 +252,12 @@ const products = [
         rating: 4.1,
         description: "Elegant leather strap watch that goes with every outfit.",
         image: "https://images.unsplash.com/photo-1524592094714-0f0654e20314?auto=format&fit=crop&w=800&q=80",
+        features: [
+            "Elegant leather strap",
+            "Classic analog dial",
+            "Precision quartz movement",
+            "Goes with every outfit"
+        ],
         affiliateLink: "https://www.amazon.in/s?k=analog+watch+men&tag=dealora-21"
     },
     {
@@ -179,6 +271,12 @@ const products = [
         rating: 4.4,
         description: "Dimmable warm-white light with USB charging port and touch control.",
         image: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=800&q=80",
+        features: [
+            "Dimmable warm-white light",
+            "Touch control",
+            "USB charging port",
+            "Energy efficient"
+        ],
         affiliateLink: "https://www.amazon.in/s?k=led+desk+lamp&tag=dealora-21"
     },
     {
@@ -192,6 +290,12 @@ const products = [
         rating: 4.3,
         description: "8-piece granite non-stick set, scratch-resistant and easy to clean.",
         image: "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=800&q=80",
+        features: [
+            "8-piece granite set",
+            "Non-stick coating",
+            "Scratch resistant",
+            "Easy to clean"
+        ],
         affiliateLink: "https://www.amazon.in/s?k=non+stick+cookware+set&tag=dealora-21"
     }
 ];
@@ -219,7 +323,7 @@ function stars(rating) {
 
 function cardHTML(p, index) {
     return `
-        <article class="blog-card${index === 0 ? ' featured' : ''}">
+        <article class="blog-card${index === 0 ? ' featured' : ''}" data-id="${p.id}">
             <div class="card-img-wrap">
                 <img src="${p.image}" alt="${p.name}" loading="lazy" onerror="this.src='${PLACEHOLDER}'">
                 <span class="category-tag">${capitalize(p.category)}</span>
@@ -345,3 +449,98 @@ const observer = new IntersectionObserver(entries => {
 document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
 render();
+
+/* ---------- Product detail modal ---------- */
+const modal = document.getElementById('productModal');
+const modalSlider = document.getElementById('modalSlider');
+const modalSlides = document.getElementById('modalSlides');
+const modalDots = document.getElementById('slideDots');
+const modalMeta = document.getElementById('modalMeta');
+const modalTitle = document.getElementById('modalTitle');
+const modalRating = document.getElementById('modalRating');
+const modalDesc = document.getElementById('modalDesc');
+const modalFeatures = document.getElementById('modalFeatures');
+const modalBtn = document.getElementById('modalBtn');
+let currentSlide = 0;
+let slideCount = 1;
+
+function openModal(p) {
+    const images = (p.gallery && p.gallery.length) ? p.gallery : [p.image];
+    slideCount = images.length;
+    currentSlide = 0;
+    modalSlides.innerHTML = images.map(src =>
+        `<div class="modal-slide"><img src="${src}" alt="${p.name}" onerror="this.src='${PLACEHOLDER}'"></div>`
+    ).join('');
+    modalDots.innerHTML = images.map((_, i) =>
+        `<button class="slide-dot${i === 0 ? ' active' : ''}" onclick="goSlide(${i})" aria-label="Image ${i + 1}"></button>`
+    ).join('');
+    modalMeta.textContent = p.brand;
+    modalTitle.textContent = p.name;
+    modalRating.innerHTML = `<span class="stars">${stars(p.rating)}</span><span>${p.rating} / 5</span>`;
+    modalDesc.textContent = p.description;
+    modalFeatures.innerHTML = (p.features || []).map(f => `<li><i class="fas fa-check"></i>${f}</li>`).join('');
+    modalBtn.href = p.affiliateLink;
+    updateSlider();
+    modal.classList.add('open');
+    document.body.classList.add('modal-open');
+}
+
+function closeModal() {
+    modal.classList.remove('open');
+    document.body.classList.remove('modal-open');
+}
+
+function goSlide(i) {
+    currentSlide = Math.max(0, Math.min(slideCount - 1, i));
+    updateSlider();
+}
+
+function updateSlider() {
+    modalSlides.style.transform = 'translateX(-' + (currentSlide * 100) + '%)';
+    modalDots.querySelectorAll('.slide-dot').forEach((d, i) => d.classList.toggle('active', i === currentSlide));
+    document.getElementById('slidePrev').style.display = slideCount > 1 ? 'flex' : 'none';
+    document.getElementById('slideNext').style.display = slideCount > 1 ? 'flex' : 'none';
+    document.getElementById('slideDots').style.display = slideCount > 1 ? 'flex' : 'none';
+}
+
+grid.addEventListener('dblclick', e => {
+    const card = e.target.closest('.blog-card');
+    if (card && !e.target.closest('.card-link')) {
+        const p = products.find(x => x.id === Number(card.dataset.id));
+        if (p) openModal(p);
+    }
+});
+
+let lastTap = 0;
+grid.addEventListener('click', e => {
+    const card = e.target.closest('.blog-card');
+    if (!card || e.target.closest('.card-link')) return;
+    const now = Date.now();
+    if (now - lastTap < 350) {
+        const p = products.find(x => x.id === Number(card.dataset.id));
+        if (p) openModal(p);
+        lastTap = 0;
+    } else {
+        lastTap = now;
+    }
+});
+
+let touchStartX = 0;
+modalSlider.addEventListener('touchstart', e => {
+    touchStartX = e.changedTouches[0].clientX;
+}, { passive: true });
+
+modalSlider.addEventListener('touchend', e => {
+    const diff = e.changedTouches[0].clientX - touchStartX;
+    if (Math.abs(diff) > 40) {
+        if (diff < 0) goSlide(currentSlide + 1);
+        else goSlide(currentSlide - 1);
+    }
+}, { passive: true });
+
+document.addEventListener('keydown', e => {
+    if (!modal.classList.contains('open')) return;
+    if (e.key === 'Escape') closeModal();
+    if (e.key === 'ArrowLeft') goSlide(currentSlide - 1);
+    if (e.key === 'ArrowRight') goSlide(currentSlide + 1);
+});
