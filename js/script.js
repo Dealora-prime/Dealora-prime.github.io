@@ -3,7 +3,7 @@ const products = [
         id: 10,
         name: "FRONY QH191 Wireless Bluetooth Gaming Headset",
         brand: "FRONY",
-        category: "electronics",
+        category: "headphones",
         hot: true,
         price: 999,
         oldPrice: 1999,
@@ -11,6 +11,32 @@ const products = [
         description: "Wireless gaming sports headphones with stereo sound, SD card support, and 5-6 hour battery backup. True wireless multicolor bluetooth headset.",
         image: "images/frony-qh191-headset.jpg",
         affiliateLink: "https://fktr.in/nY8IAei"
+    },
+    {
+        id: 11,
+        name: "ShreeVistaar Noise Cancelling Wireless Headset",
+        brand: "ShreeVistaar",
+        category: "headphones",
+        hot: false,
+        price: 1499,
+        oldPrice: 2999,
+        rating: 4.1,
+        description: "Noise cancelling wireless headset with built-in mic for crystal clear calls. On-the-ear bluetooth headset in silver and white.",
+        image: "images/shreevistaar-headset.jpg",
+        affiliateLink: "https://fktr.in/eTXox5q"
+    },
+    {
+        id: 12,
+        name: "TRIGGR Punkheadz Z4 Bluetooth Gaming Headset",
+        brand: "TRIGGR",
+        category: "headphones",
+        hot: false,
+        price: 1799,
+        oldPrice: 3499,
+        rating: 4.3,
+        description: "Punkheadz Z4 with 50 hour battery, dual pairing, 40mm drivers, gaming mode and BT v6.0. On-the-ear bluetooth headset in alpine green.",
+        image: "images/triggr-z4-headset.jpg",
+        affiliateLink: "https://fktr.in/oWtv5fw"
     },
     {
         id: 1,
