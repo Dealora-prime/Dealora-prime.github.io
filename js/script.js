@@ -459,22 +459,12 @@ const modalBrand = document.getElementById('modalBrand');
 const modalMeta = document.getElementById('modalMeta');
 const modalTitle = document.getElementById('modalTitle');
 const modalRating = document.getElementById('modalRating');
-const modalPrice = document.getElementById('modalPrice');
-const modalOldPrice = document.getElementById('modalOldPrice');
-const modalOff = document.getElementById('modalOff');
 const modalHighlights = document.getElementById('modalHighlights');
 const modalDesc = document.getElementById('modalDesc');
 const modalFeatures = document.getElementById('modalFeatures');
 const modalBtn = document.getElementById('modalBtn');
-const modalActionPrice = document.getElementById('modalActionPrice');
-const modalActionOld = document.getElementById('modalActionOld');
-const modalActionOff = document.getElementById('modalActionOff');
 let currentSlide = 0;
 let slideCount = 1;
-
-function inr(n) {
-    return '₹' + Number(n || 0).toLocaleString('en-IN');
-}
 
 function openModal(p) {
     const images = (p.gallery && p.gallery.length) ? p.gallery : [p.image];
@@ -490,13 +480,6 @@ function openModal(p) {
     modalMeta.textContent = p.brand;
     modalTitle.textContent = p.name;
     modalRating.innerHTML = `<span class="stars">${stars(p.rating)}</span><span>${p.rating} / 5</span>`;
-    const offPct = p.oldPrice > p.price ? Math.round((1 - p.price / p.oldPrice) * 100) : 0;
-    modalPrice.textContent = inr(p.price);
-    modalOldPrice.textContent = inr(p.oldPrice);
-    modalOff.textContent = offPct ? offPct + '% OFF' : '';
-    modalActionPrice.textContent = inr(p.price);
-    modalActionOld.textContent = inr(p.oldPrice);
-    modalActionOff.textContent = offPct ? offPct + '% OFF' : '';
     modalHighlights.innerHTML = [
         '<span><i class="fas fa-truck"></i>Free Delivery</span>',
         '<span><i class="fas fa-shield-alt"></i>Brand Warranty</span>',

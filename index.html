@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dealora – Best Deals, Smart Savings</title>
+  <title>Dealora Prime – Best Deals, Smart Savings</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,500;1,600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -13,7 +13,7 @@
 
   <header id="mainHeader">
     <div class="nav-wrap" id="navWrap">
-      <div class="logo" onclick="window.scrollTo({top:0,behavior:'smooth'})">Dealora</div>
+      <div class="logo" onclick="window.scrollTo({top:0,behavior:'smooth'})">Dealora Prime</div>
       <nav>
         <ul class="nav-links" id="navLinks">
           <li class="dropdown-parent">
@@ -72,7 +72,7 @@
   <footer class="container">
     <div class="footer-grid">
       <div class="footer-col footer-about">
-        <div class="footer-logo">Dealora</div>
+        <div class="footer-logo">Dealora Prime</div>
         <p>Your daily source for hand-picked deals. We hunt down the best prices on top products so you can save more, every single day.</p>
         <div class="social-icons">
           <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
@@ -85,7 +85,7 @@
       <div class="footer-col"><h4>Categories</h4><ul class="footer-links"><li><a href="#" data-cat="electronics">Electronics</a></li><li><a href="#" data-cat="fashion">Fashion</a></li><li><a href="#" data-cat="accessories">Accessories</a></li><li><a href="#" data-cat="home">Home &amp; Living</a></li></ul></div>
       <div class="footer-col" id="newsletter"><h4>Deal Alerts</h4><p style="color:var(--sub-text);font-size:clamp(0.78rem,1vw,0.9rem);margin-bottom:15px;">Best deals, delivered to your inbox.</p><form class="newsletter-form" onsubmit="event.preventDefault();alert('Thank you for subscribing!');"><input type="email" placeholder="Your email address" required><button type="submit">Subscribe</button></form></div>
     </div>
-    <div class="footer-bottom"><span>&copy; 2026 Dealora. All rights reserved.</span><div><a href="#">Privacy Policy</a> &nbsp;&middot;&nbsp; <a href="#">Terms of Service</a> &nbsp;&middot;&nbsp; <a href="#">Cookies</a></div></div>
+    <div class="footer-bottom"><span>&copy; 2026 Dealora Prime. All rights reserved.</span><div><a href="#">Privacy Policy</a> &nbsp;&middot;&nbsp; <a href="#">Terms of Service</a> &nbsp;&middot;&nbsp; <a href="#">Cookies</a></div></div>
   </footer>
 
   <div id="productModal" class="modal" aria-hidden="true">
@@ -93,6 +93,7 @@
     <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
       <div class="modal-top">
         <button class="modal-back" onclick="closeModal()" aria-label="Back"><i class="fas fa-arrow-left"></i></button>
+        <span class="modal-site">Dealora Prime</span>
         <span class="modal-brand" id="modalBrand"></span>
         <button class="modal-close" onclick="closeModal()" aria-label="Close">&times;</button>
       </div>
@@ -108,11 +109,6 @@
             <span class="modal-meta" id="modalMeta"></span>
             <h2 class="modal-title" id="modalTitle"></h2>
             <div class="modal-rating" id="modalRating"></div>
-            <div class="modal-price" id="modalPriceBlock">
-              <span class="price-now" id="modalPrice"></span>
-              <span class="price-old" id="modalOldPrice"></span>
-              <span class="price-off" id="modalOff"></span>
-            </div>
             <div class="modal-highlights" id="modalHighlights"></div>
             <p class="modal-desc" id="modalDesc"></p>
             <h3 class="modal-section-title">Key Features</h3>
@@ -121,11 +117,6 @@
         </div>
       </div>
       <div class="modal-action">
-        <div class="modal-action-price">
-          <span class="action-price" id="modalActionPrice"></span>
-          <span class="action-old" id="modalActionOld"></span>
-          <span class="action-off" id="modalActionOff"></span>
-        </div>
         <a class="card-link modal-btn" id="modalBtn" target="_blank" rel="noopener sponsored"><i class="fas fa-shopping-bag"></i> View Price &rarr;</a>
       </div>
     </div>

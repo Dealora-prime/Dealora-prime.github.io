@@ -758,6 +758,19 @@ body.modal-open {
   flex: 0 0 auto;
 }
 
+.modal-site {
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--accent);
+  padding: 4px 10px;
+  border: 1px solid var(--accent);
+  border-radius: 6px;
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
 .modal-brand {
   flex: 1;
   font-size: 0.85rem;
@@ -918,32 +931,6 @@ body.modal-open {
   margin-bottom: 10px;
 }
 
-.modal-price {
-  display: flex;
-  align-items: baseline;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-bottom: 14px;
-}
-
-.price-now {
-  font-size: 1.7rem;
-  font-weight: 800;
-  color: var(--text-color);
-}
-
-.price-old {
-  text-decoration: line-through;
-  color: var(--sub-text);
-  font-size: 0.95rem;
-}
-
-.price-off {
-  color: #0a9d52;
-  font-weight: 700;
-  font-size: 0.9rem;
-}
-
 .modal-highlights {
   display: flex;
   flex-wrap: wrap;
@@ -1008,7 +995,6 @@ body.modal-open {
 .modal-action {
   display: flex;
   align-items: center;
-  gap: 14px;
   padding: 12px 16px;
   background: var(--surface);
   border-top: 1px solid var(--border-color);
@@ -1016,36 +1002,8 @@ body.modal-open {
   flex: 0 0 auto;
 }
 
-.modal-action-price {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-}
-
-.action-price {
-  font-size: 1.35rem;
-  font-weight: 800;
-  color: var(--text-color);
-  line-height: 1.1;
-}
-
-.action-old {
-  font-size: 0.8rem;
-  text-decoration: line-through;
-  color: var(--sub-text);
-}
-
-.action-off {
-  font-size: 0.8rem;
-  color: #0a9d52;
-  font-weight: 700;
-}
-
 .modal-action .modal-btn {
-  width: auto;
-  flex: 0 0 auto;
-  min-width: 190px;
+  width: 100%;
   justify-content: center;
 }
 
@@ -1087,10 +1045,5 @@ body.modal-open {
 
   .modal-action .modal-btn {
     min-width: 0;
-    flex: 1;
-  }
-
-  .modal-action-price {
-    display: none;
   }
 }
