@@ -1047,3 +1047,67 @@ body.modal-open {
     min-width: 0;
   }
 }
+
+/* ---------- Legal pages ---------- */
+.legal-header {
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  padding: 14px 0;
+  background: var(--header-bg);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.legal-nav {
+  width: min(1120px, 90%);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.legal-main {
+  width: min(820px, 90%);
+  margin: 0 auto;
+  padding: 46px 0 60px;
+}
+
+.legal-main h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  margin-bottom: 6px;
+}
+
+.legal-updated {
+  color: var(--sub-text);
+  font-size: 0.85rem;
+  margin-bottom: 28px;
+}
+
+.legal-main h2 {
+  font-size: 1.25rem;
+  margin: 30px 0 10px;
+}
+
+.legal-main p,
+.legal-main li {
+  color: var(--sub-text);
+  margin-bottom: 10px;
+}
+
+.legal-main ul {
+  padding-left: 22px;
+}
+
+.legal-back {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.legal-back:hover {
+  text-decoration: underline;
+}
