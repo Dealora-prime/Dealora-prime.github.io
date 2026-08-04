@@ -128,6 +128,111 @@ const products = [
         affiliateLink: "https://fktr.in/vJHg053"
     },
     {
+        id: 16,
+        name: "CASIO Youth (MCW-200H-9AVDF) Analog Watch - For Boys & Girls A1324",
+        brand: "CASIO",
+        category: "watches",
+        hot: true,
+        price: 899,
+        oldPrice: 1495,
+        rating: 4.5,
+        description: "CASIO Youth (MCW-200H-9AVDF) Analog Watch - For Boys & Girls A1324. A classic youth analog watch from Casio built for daily use.",
+        image: "images/casio-mcw-1.jpg",
+        features: [
+            "Genuine Casio youth analog watch",
+            "Rugged, everyday design for boys and girls",
+            "Easy-to-read analog display",
+            "Durable construction for long-lasting use",
+            "Stylish look that pairs with any outfit"
+        ],
+        gallery: ["images/casio-mcw-1.jpg", "images/casio-mcw-2.jpg", "images/casio-mcw-3.jpg", "images/casio-mcw-4.jpg", "images/casio-mcw-5.jpg"],
+        affiliateLink: "https://fktr.in/zuq66iI"
+    },
+    {
+        id: 17,
+        name: "CASIO Youth (MRW-200HC-2BVDF) Analog Watch - For Boys & Girls A864",
+        brand: "CASIO",
+        category: "watches",
+        hot: false,
+        price: 5439,
+        oldPrice: 6995,
+        rating: 4.2,
+        description: "CASIO Youth (MRW-200HC-2BVDF) Analog Watch - For Boys & Girls A864. A sporty Casio analog watch with a bold, reliable look.",
+        image: "images/casio-mrw-1.jpg",
+        features: [
+            "Genuine Casio youth analog watch",
+            "Sporty, masculine design",
+            "Clear analog dial for easy reading",
+            "Comfortable fit for all-day wear",
+            "Built to match an active lifestyle"
+        ],
+        gallery: ["images/casio-mrw-1.jpg", "images/casio-mrw-2.jpg", "images/casio-mrw-3.jpg", "images/casio-mrw-4.jpg"],
+        affiliateLink: "https://fktr.in/8ADx94r"
+    },
+    {
+        id: 18,
+        name: "TheHotPickz Snake Watch Analog Watch - For Women Golden Strap Snake Watch (Green Dial)",
+        brand: "TheHotPickz",
+        category: "watches",
+        hot: false,
+        price: 264,
+        oldPrice: 999,
+        rating: 4.2,
+        description: "TheHotPickz Snake Watch Analog Watch - For Women. Golden strap snake watch with a green dial - a bold fashion statement.",
+        image: "images/snake-1.jpg",
+        features: [
+            "Unique snake coil design",
+            "Golden strap with green dial",
+            "Trendy statement piece for women",
+            "Lightweight and comfortable to wear",
+            "Analog display for classic timekeeping"
+        ],
+        gallery: ["images/snake-1.jpg", "images/snake-2.jpg", "images/snake-3.jpg", "images/snake-4.jpg"],
+        affiliateLink: "https://fktr.in/O52FjC1"
+    },
+    {
+        id: 19,
+        name: "NAYROS Analog Watch - For Women Pink Meenakari Fusion",
+        brand: "NAYROS",
+        category: "watches",
+        hot: false,
+        price: 763,
+        oldPrice: 1599,
+        rating: 3.9,
+        description: "NAYROS Analog Watch - For Women Pink Meenakari Fusion. Beautifully crafted meenakari dial watch with a feminine pink finish.",
+        image: "images/nayros-1.jpg",
+        features: [
+            "Elegant pink meenakari dial",
+            "Traditional fusion design for women",
+            "Premium crafted bracelet",
+            "Smooth analog movement",
+            "Perfect for festive and formal wear"
+        ],
+        gallery: ["images/nayros-1.jpg", "images/nayros-2.jpg", "images/nayros-3.jpg", "images/nayros-4.jpg"],
+        affiliateLink: "https://fktr.in/8IQmLf9"
+    },
+    {
+        id: 20,
+        name: "Praizy Times Premium Metal Bracelet Watch Collection Analog Watch - For Women Metal Bracelet Watch",
+        brand: "Praizy Times",
+        category: "watches",
+        hot: false,
+        price: 278,
+        oldPrice: 1299,
+        rating: 4.3,
+        description: "Praizy Times Premium Metal Bracelet Watch Collection Analog Watch - For Women. A premium metal bracelet watch with an oval dial.",
+        image: "images/praizy-1.jpg",
+        features: [
+            "Premium metal bracelet strap",
+            "Elegant oval dial design",
+            "Sophisticated women's fashion watch",
+            "Polished metallic finish",
+            "Comfortable secure clasp"
+        ],
+        gallery: ["images/praizy-1.jpg", "images/praizy-2.jpg", "images/praizy-3.jpg", "images/praizy-4.jpg"],
+        affiliateLink: "https://fktr.in/Ldz5wst"
+    },
+    {
         id: 1,
         name: "True Wireless Earbuds Pro",
         brand: "SoundMax",
