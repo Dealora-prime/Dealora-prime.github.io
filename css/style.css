@@ -1129,3 +1129,71 @@ textarea {
   -moz-user-select: text;
   user-select: text;
 }
+
+/* ---------- Telegram band ---------- */
+.telegram-band {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin: 10px 0 34px;
+  padding: 18px 22px;
+  background: linear-gradient(120deg, rgba(194, 65, 12, 0.08), rgba(42, 151, 217, 0.1));
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+}
+
+.telegram-band-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.telegram-band-title {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: var(--text-color);
+}
+
+.telegram-band-title i {
+  color: #2a97d9;
+  margin-right: 6px;
+}
+
+.telegram-band-sub {
+  font-size: 0.85rem;
+  color: var(--sub-text);
+}
+
+.telegram-band-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 20px;
+  background: #2a97d9;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.9rem;
+  border-radius: 8px;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background var(--transition);
+}
+
+.telegram-band-btn:hover {
+  background: #1d7fbb;
+}
+
+@media (max-width: 560px) {
+  .telegram-band {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .telegram-band-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
