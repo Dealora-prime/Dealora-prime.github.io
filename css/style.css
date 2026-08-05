@@ -1216,3 +1216,15 @@ textarea {
     justify-content: center;
   }
 }
+
+/* ---------- Footer credit ---------- */
+.footer-credit {
+  font-size: 0.85rem;
+  color: var(--sub-text);
+  margin-top: 12px;
+}
+
+.credit-short {
+  font-weight: 700;
+  color: var(--accent);
+}
