@@ -483,6 +483,300 @@
         image: "images/jinzs-1.jpg",
         gallery: ["images/jinzs-1.jpg"],
         affiliateLink: "https://fktr.in/XnPLz6g"
+    },
+    {
+        id: 33,
+        name: "MRSAYON Large 32 L Laptop Backpack Bag with 2 Hidden Pockets (Black)",
+        brand: "MRSAYON",
+        category: "backpacks",
+        hot: true,
+        price: 399,
+        oldPrice: 1299,
+        rating: 3.9,
+        description: "MRSAYON 32L laptop backpack with 2 hidden pockets for extra security. Spacious, durable and perfect for school, college and office use.",
+        features: [
+            "32L spacious capacity with 2 hidden pockets",
+            "Laptop sleeve for safe device storage",
+            "Water-resistant durable fabric",
+            "Comfortable padded shoulder straps",
+            "Perfect for school, college and office"
+        ],
+        image: "images/mrsayon-1.jpg",
+        gallery: ["images/mrsayon-1.jpg", "images/mrsayon-2.jpg", "images/mrsayon-3.jpg", "images/mrsayon-4.jpg", "images/mrsayon-5.jpg"],
+        affiliateLink: "https://fktr.in/z0dpI0m"
+    },
+    {
+        id: 34,
+        name: "MONVELLI Large 40 L Laptop Backpack Casual for Men Women Boys Girls Office",
+        brand: "MONVELLI",
+        category: "backpacks",
+        hot: false,
+        price: 539,
+        oldPrice: 1999,
+        rating: 4.2,
+        description: "MONVELLI 40L large laptop backpack for men, women, boys and girls. A roomy casual backpack built for office, travel and everyday carry.",
+        features: [
+            "Large 40L capacity for all your essentials",
+            "Fits laptops up to 15.6 inch",
+            "Unisex casual design",
+            "Comfortable padded back support",
+            "Great for office and travel"
+        ],
+        image: "images/monvelli-1.jpg",
+        gallery: ["images/monvelli-1.jpg", "images/monvelli-2.jpg"],
+        affiliateLink: "https://fktr.in/dsXkvdg"
+    },
+    {
+        id: 35,
+        name: "Prolific Stylish 25 Ltr Backpack for Laptop 14 inch Nylon Water Resistance with USB Charging Port",
+        brand: "Prolific",
+        category: "backpacks",
+        hot: true,
+        price: 408,
+        oldPrice: 1299,
+        rating: 4.1,
+        description: "Prolific stylish 25L nylon backpack with USB charging port and water resistance. Ideal for school, college, office and travel.",
+        features: [
+            "25L capacity with USB charging port",
+            "Fits 14 inch laptops",
+            "Water-resistant nylon material",
+            "Smart outer USB port for on-the-go charging",
+            "Perfect for school, college, office and travel"
+        ],
+        image: "images/prolific-1.jpg",
+        gallery: ["images/prolific-1.jpg", "images/prolific-2.jpg", "images/prolific-3.jpg"],
+        affiliateLink: "https://fktr.in/1a1ksU4"
+    },
+    {
+        id: 36,
+        name: "HouseOfCommon Vintage Classic Faux Leather Travel Backpack College for Men Women 28 L",
+        brand: "HouseOfCommon",
+        category: "backpacks",
+        hot: false,
+        price: 410,
+        oldPrice: 1499,
+        rating: 4.2,
+        description: "HouseOfCommon vintage classic faux leather travel backpack with a timeless look. 28L capacity for college, travel and daily use.",
+        features: [
+            "Vintage faux leather premium look",
+            "28L roomy capacity",
+            "Fits laptops comfortably",
+            "Unisex classic design",
+            "Durable everyday travel backpack"
+        ],
+        image: "images/houseofcommon-1.jpg",
+        gallery: ["images/houseofcommon-1.jpg", "images/houseofcommon-2.jpg", "images/houseofcommon-3.jpg", "images/houseofcommon-4.jpg", "images/houseofcommon-5.jpg"],
+        affiliateLink: "https://fktr.in/oW0Gp9J"
+    },
+    {
+        id: 37,
+        name: "WESLEY Zeus Unisex Bag Office College Bag Business 35 L Laptop Backpack",
+        brand: "WESLEY",
+        category: "backpacks",
+        hot: true,
+        price: 773,
+        oldPrice: 2499,
+        rating: 4.3,
+        description: "WESLEY Zeus 35L unisex laptop backpack for office, college and business. A premium, organized carry for professionals and students.",
+        features: [
+            "35L premium organized design",
+            "Laptop compartment with padding",
+            "Unisex office and college style",
+            "Multiple pockets for organization",
+            "Comfortable ergonomic straps"
+        ],
+        image: "images/wesley-1.jpg",
+        gallery: ["images/wesley-1.jpg", "images/wesley-2.jpg", "images/wesley-3.jpg", "images/wesley-4.jpg"],
+        affiliateLink: "https://fktr.in/vdDdYmO"
+    },
+    {
+        id: 38,
+        name: "Rgulus Leather Rhodium Bracelet for Men",
+        brand: "Rgulus",
+        category: "accessories",
+        hot: true,
+        price: 178,
+        oldPrice: 599,
+        rating: 4.1,
+        description: "Rgulus leather rhodium bracelet - a stylish everyday accessory for men. Premium leather with a rhodium-plated finish.",
+        features: [
+            "Premium leather bracelet",
+            "Rhodium-plated accent",
+            "Stylish everyday accessory for men",
+            "Comfortable adjustable fit",
+            "Great gifting option"
+        ],
+        image: "images/rgulus-1.jpg",
+        gallery: ["images/rgulus-1.jpg", "images/rgulus-2.jpg", "images/rgulus-3.jpg", "images/rgulus-4.jpg"],
+        affiliateLink: "https://fktr.in/wQI66BG"
+    },
+    {
+        id: 39,
+        name: "ringzinnie Stylish Silver Black Octagon Square Pendant for Men Women Boys",
+        brand: "ringzinnie",
+        category: "accessories",
+        hot: false,
+        price: 72,
+        oldPrice: 399,
+        rating: 3.3,
+        description: "ringzinnie stylish silver-black octagon square pendant with agate stone in stainless steel. A bold fashion locket for men, women and boys.",
+        features: [
+            "Octagon square locket design",
+            "Stainless steel with agate stone",
+            "Silver and black finish",
+            "Unisex fashion accessory",
+            "Budget-friendly style upgrade"
+        ],
+        image: "images/ringzinnie-1.jpg",
+        gallery: ["images/ringzinnie-1.jpg", "images/ringzinnie-2.jpg", "images/ringzinnie-3.jpg", "images/ringzinnie-4.jpg", "images/ringzinnie-5.jpg"],
+        affiliateLink: "https://fktr.in/B03loK9"
+    },
+    {
+        id: 40,
+        name: "GanPatique chaens Silver Stainless Steel Pendant Set for Men",
+        brand: "GanPatique",
+        category: "accessories",
+        hot: false,
+        price: 163,
+        oldPrice: 699,
+        rating: 3.8,
+        description: "GanPatique silver stainless steel pendant set - a premium chain and pendant combo for men. Everyday style that lasts.",
+        features: [
+            "Stainless steel pendant with chain",
+            "Silver anti-tarnish finish",
+            "Men's everyday fashion set",
+            "Durable and long-lasting",
+            "Great value accessory"
+        ],
+        image: "images/ganpatique-1.jpg",
+        gallery: ["images/ganpatique-1.jpg"],
+        affiliateLink: "https://fktr.in/Cxpibh8"
+    },
+    {
+        id: 41,
+        name: "SAIIZEN Silver-Black Stainless Steel Locket Pendant Set, Rhodium Alloy Set",
+        brand: "SAIIZEN",
+        category: "accessories",
+        hot: false,
+        price: 168,
+        oldPrice: 699,
+        rating: 3.7,
+        description: "SAIIZEN silver-black stainless steel locket pendant set with rhodium alloy finish. A modern men's accessory that completes any look.",
+        features: [
+            "Stainless steel locket pendant",
+            "Rhodium alloy finish",
+            "Silver-black dual tone style",
+            "Men's premium accessory",
+            "Complete pendant set"
+        ],
+        image: "images/saiizen-1.jpg",
+        gallery: ["images/saiizen-1.jpg", "images/saiizen-2.jpg", "images/saiizen-3.jpg", "images/saiizen-4.jpg", "images/saiizen-5.jpg"],
+        affiliateLink: "https://fktr.in/lWf67Ap"
+    },
+    {
+        id: 42,
+        name: "AiFit 8-in-1 USB-C Hub for Work & Play - 4K HDMI, 87W PD, Ethernet, USB",
+        brand: "AiFit",
+        category: "gadgets",
+        hot: true,
+        price: 251,
+        oldPrice: 999,
+        rating: 3.7,
+        description: "AiFit sleek 8-in-1 USB-C hub with 4K HDMI, 87W power delivery, Ethernet and multiple USB ports. Turn one port into everything you need.",
+        features: [
+            "8-in-1 multiport USB-C hub",
+            "4K HDMI video output",
+            "87W power delivery pass-through",
+            "Gigabit Ethernet port",
+            "Sleek compact travel design"
+        ],
+        image: "images/aifit-1.jpg",
+        gallery: ["images/aifit-1.jpg", "images/aifit-2.jpg", "images/aifit-3.jpg", "images/aifit-4.jpg", "images/aifit-5.jpg"],
+        affiliateLink: "https://fktr.in/gwvydrp"
+    },
+    {
+        id: 43,
+        name: "Mobile Point Type C Multiport Hub 5-in-1 Adapter Dock - HDMI Multi USB Port 4K",
+        brand: "Mobile Point",
+        category: "gadgets",
+        hot: false,
+        price: 245,
+        oldPrice: 899,
+        rating: 3,
+        description: "Mobile Point 5-in-1 Type-C multiport hub adapter with HDMI and multi-USB ports. Connect laptops, tablets and smartphones to HDTV at 4K.",
+        features: [
+            "5-in-1 Type-C multiport hub",
+            "HDMI output up to 4K",
+            "Multi-USB port expansion",
+            "Compatible with Type-C laptops and tablets",
+            "Compact travel-friendly design"
+        ],
+        image: "images/mobilepoint-1.jpg",
+        gallery: ["images/mobilepoint-1.jpg", "images/mobilepoint-2.jpg", "images/mobilepoint-3.jpg", "images/mobilepoint-4.jpg", "images/mobilepoint-5.jpg"],
+        affiliateLink: "https://fktr.in/FSxel69"
+    },
+    {
+        id: 44,
+        name: "fire turtle Bluetooth Wireless Speaker with USB Input, Hands-Free Calling, 10W RMS",
+        brand: "fire turtle",
+        category: "speakers",
+        hot: true,
+        price: 480,
+        oldPrice: 1499,
+        rating: 4.1,
+        description: "fire turtle 10W Bluetooth wireless speaker with USB input and hands-free calling. Big sound and bold style for home or outdoors.",
+        features: [
+            "10W RMS powerful sound output",
+            "Bluetooth wireless connectivity",
+            "USB input for wired music playback",
+            "Hands-free calling with mic",
+            "Portable bold design"
+        ],
+        image: "images/fireturtle-1.jpg",
+        gallery: ["images/fireturtle-1.jpg", "images/fireturtle-2.jpg", "images/fireturtle-3.jpg", "images/fireturtle-4.jpg", "images/fireturtle-5.jpg"],
+        affiliateLink: "https://fktr.in/BFfwBry"
+    },
+    {
+        id: 45,
+        name: "Fireshell FS-636 Portable Bluetooth Speaker with Clear Sound and High Bass Output 10W",
+        brand: "Fireshell",
+        category: "speakers",
+        hot: false,
+        price: 478,
+        oldPrice: 1499,
+        rating: 4.1,
+        description: "Fireshell FS-636 portable Bluetooth speaker with clear sound and high bass output. Compact power for music anywhere you go.",
+        features: [
+            "10W high bass output",
+            "Clear sound reproduction",
+            "Portable compact design",
+            "Bluetooth wireless streaming",
+            "Built for travel and outdoor use"
+        ],
+        image: "images/fireshell-1.jpg",
+        gallery: ["images/fireshell-1.jpg", "images/fireshell-2.jpg", "images/fireshell-3.jpg", "images/fireshell-4.jpg", "images/fireshell-5.jpg"],
+        affiliateLink: "https://fktr.in/NXvytJp"
+    },
+    {
+        id: 46,
+        name: "YOROTO YO-412BTL Wireless Speaker with RGB Light, Superior Sound, Thunder Bass 20W",
+        brand: "YOROTO",
+        category: "speakers",
+        hot: true,
+        price: 1499,
+        oldPrice: 2999,
+        rating: 4,
+        description: "YOROTO YO-412BTL 20W wireless speaker with RGB light and thunder bass. Room-filling sound with a spectacular light show.",
+        features: [
+            "20W thunder bass output",
+            "RGB light effects",
+            "Superior sound quality",
+            "Bluetooth wireless connectivity",
+            "Party-ready design"
+        ],
+        image: "images/yoroto-1.jpg",
+        gallery: ["images/yoroto-1.jpg", "images/yoroto-2.jpg", "images/yoroto-3.jpg", "images/yoroto-4.jpg"],
+        affiliateLink: "https://fktr.in/Z2pivVQ"
     }
 ];
 
