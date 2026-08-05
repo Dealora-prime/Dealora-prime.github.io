@@ -52,7 +52,7 @@ function buildCaption(p) {
 }
 
 function urlFor(img) {
-  return img.startsWith('http') ? img : SITE + img;
+  return (img.startsWith('http') ? img : SITE + img) + '?v=' + Date.now();
 }
 
 async function postProduct(p) {
