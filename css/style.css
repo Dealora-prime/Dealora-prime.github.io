@@ -1186,14 +1186,33 @@ textarea {
   background: #1d7fbb;
 }
 
+.telegram-band-btn.pinterest {
+  background: #e60023;
+}
+
+.telegram-band-btn.pinterest:hover {
+  background: #c2001d;
+}
+
+.telegram-band-btns {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
 @media (max-width: 560px) {
   .telegram-band {
     justify-content: center;
     text-align: center;
   }
 
-  .telegram-band-btn {
+  .telegram-band-btns {
     width: 100%;
+  }
+
+  .telegram-band-btn {
+    flex: 1;
     justify-content: center;
   }
 }
