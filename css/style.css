@@ -86,6 +86,17 @@ img {
   letter-spacing: -0.5px;
   cursor: pointer;
   white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
 .logo::first-letter {
@@ -496,6 +507,9 @@ footer.container {
   font-size: 1.6rem;
   font-weight: 800;
   margin-bottom: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .footer-logo::first-letter {
