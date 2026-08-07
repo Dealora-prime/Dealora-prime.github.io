@@ -1055,3 +1055,37 @@ document.addEventListener('keydown', e => {
     if (e.key === 'ArrowLeft') goSlide(currentSlide - 1);
     if (e.key === 'ArrowRight') goSlide(currentSlide + 1);
 });
+
+document.querySelectorAll('.join-hub-btn').forEach(btn => {
+    btn.addEventListener('click', e => {
+        e.preventDefault();
+        const target = document.getElementById('newsletter');
+        if (target) {
+            const top = target.getBoundingClientRect().top + window.scrollY - 80;
+            window.scrollTo({ top, behavior: 'smooth' });
+            setTimeout(() => {
+                const input = target.querySelector('input[type="email"]');
+                if (input) input.focus();
+            }, 500);
+        }
+        closeMenu();
+    });
+});
+
+document.querySelectorAll('.newsletter-form').forEach(form => {
+    form.addEventListener('submit', e => {
+        e.preventDefault();
+        const input = form.querySelector('input[type="email"]');
+        const btn = form.querySelector('button');
+        if (input && btn) {
+            btn.textContent = 'Subscribed!';
+            btn.disabled = true;
+            input.value = '';
+            input.placeholder = 'You are subscribed. Welcome aboard!';
+            setTimeout(() => {
+                btn.textContent = 'Subscribe';
+                btn.disabled = false;
+            }, 4000);
+        }
+    });
+});
