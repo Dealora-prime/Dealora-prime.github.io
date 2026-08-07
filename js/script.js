@@ -1014,26 +1014,11 @@ function updateSlider() {
     document.getElementById('slideDots').style.display = slideCount > 1 ? 'flex' : 'none';
 }
 
-grid.addEventListener('dblclick', e => {
-    const card = e.target.closest('.blog-card');
-    if (card && !e.target.closest('.card-link')) {
-        const p = products.find(x => x.id === Number(card.dataset.id));
-        if (p) openModal(p);
-    }
-});
-
-let lastTap = 0;
 grid.addEventListener('click', e => {
     const card = e.target.closest('.blog-card');
     if (!card || e.target.closest('.card-link')) return;
-    const now = Date.now();
-    if (now - lastTap < 350) {
-        const p = products.find(x => x.id === Number(card.dataset.id));
-        if (p) openModal(p);
-        lastTap = 0;
-    } else {
-        lastTap = now;
-    }
+    const p = products.find(x => x.id === Number(card.dataset.id));
+    if (p) openModal(p);
 });
 
 let touchStartX = 0;
@@ -1054,6 +1039,13 @@ document.addEventListener('keydown', e => {
     if (e.key === 'Escape') closeModal();
     if (e.key === 'ArrowLeft') goSlide(currentSlide - 1);
     if (e.key === 'ArrowRight') goSlide(currentSlide + 1);
+});
+
+document.querySelectorAll('[data-scroll-cat]').forEach(el => {
+    el.addEventListener('click', e => {
+        e.preventDefault();
+        setCat(el.dataset.scrollCat);
+    });
 });
 
 document.querySelectorAll('.join-hub-btn').forEach(btn => {
